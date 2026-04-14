@@ -1,0 +1,45 @@
+﻿# ══════════════════════════════════════════════════════════════════
+# Requirements — Projeto de Previsão de Diabetes Mellitus
+# CDC BRFSS 2015 | LightGBM | Optuna | SHAP | MLflow | Streamlit
+# ══════════════════════════════════════════════════════════════════
+# Instalação: pip install -r requirements.txt
+# Ambiente recomendado: Python 3.10+
+# ══════════════════════════════════════════════════════════════════
+
+# ── Manipulação de Dados ───────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.3
+
+# ── Visualização ──────────────────────────────────────────────────
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# ── Machine Learning ──────────────────────────────────────────────
+scikit-learn==1.5.2
+xgboost==2.1.1
+lightgbm==4.5.0
+
+# ── Otimização de Hiperparâmetros ─────────────────────────────────
+optuna==3.6.1
+
+# ── Interpretabilidade ────────────────────────────────────────────
+shap==0.46.0
+
+# ── Rastreamento de Experimentos ──────────────────────────────────
+mlflow==2.16.2
+
+# ── Serialização de Modelos ───────────────────────────────────────
+joblib==1.4.2
+
+# ── Download de Datasets ──────────────────────────────────────────
+kagglehub==0.3.4
+
+# ── Deploy / Interface ────────────────────────────────────────────
+streamlit==1.41.0
+
+# ── Geração de Relatório PDF ──────────────────────────────────────
+reportlab==4.2.2
+
+# ── Tunnel para MLflow no Colab ───────────────────────────────────
+pyngrok==7.2.0
+
