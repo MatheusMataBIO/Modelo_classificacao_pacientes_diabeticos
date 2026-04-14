@@ -80,7 +80,7 @@ diabetes-mellitus-prediction/
 └── README.md
 ```
 
-> **Nota:** Os artefatos do modelo (`.pkl`, `.npy`, `.json`) são gerados localmente ao executar os notebooks e não estão versionados no repositório.
+> **Nota:** Os artefatos do modelo (`.pkl`, `.py`, `.json`) são gerados localmente ao executar os notebooks e não estão versionados no repositório.
 
 ---
 
@@ -283,13 +283,6 @@ Execute os notebooks na ordem numérica no Google Colab ou Jupyter:
 ```
 
 > Os notebooks fazem download automático do dataset via `kagglehub`. É necessário ter uma conta no Kaggle e o arquivo `kaggle.json` configurado.
-
-### Executar a Interface Localmente
-
-```bash
-cd deploy/
-streamlit run app.py
-```
 
 ---
 
